@@ -26,7 +26,7 @@
           </template>
         </v-data-table>
 
-        <v-card-actions v-if="task.length > 0 ">
+        <v-card-actions v-if="tasks.length > 0 ">
           <v-btn small color="error" @click="removeAllTasks">Remove All</v-btn>
         </v-card-actions>
       </v-card>
