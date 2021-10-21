@@ -15,7 +15,7 @@
         <v-card-title>Tasks</v-card-title>
 
         <v-data-table
-            :header="headers"
+            :headers="headers"
             :items="tasks"
             disable-pagination
             :hide-default-footer="true"
@@ -38,7 +38,7 @@
 import TaskDataService from "../services/TaskDataService";
 
 export default {
-  name: "AddTask",
+  name: "tasks-list",
   data() {
     return {
       tasks: [],
